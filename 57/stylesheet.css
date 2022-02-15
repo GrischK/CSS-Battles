@@ -1,0 +1,103 @@
+body{
+    width: 390px;
+    height: 300px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background: #191919;
+}
+   
+
+.carre {
+    width: 110px;
+    height: 110px;
+    background: #4F77FF;
+    position: absolute;
+    left: 145px;
+    top: 95px;
+}
+  
+.cercle_noir {
+    width: 60px;
+    height: 60px;
+    background: #191919;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 75px;
+}  
+
+.cn1{
+    left: 125px;
+    top: 75px;
+}
+
+.cn2{
+    left: 215px;
+    top: 75px;
+}
+
+.cn3{
+    left: 125px;
+    top: 165px;
+}
+
+.cn4{
+    left: 215px;
+    top: 165px;
+}
+
+.cercle_jaune {
+    width: 45px;
+    height: 45px;
+    background: #F9E492;
+    border-radius: 50%;
+    position: absolute;
+}  
+
+.cj1{
+    left: 125;
+    top: 75px;
+}
+
+.cj2{
+    left: 230;
+    top: 75px;
+}
+
+.cj3{
+    left: 125;
+    top: 180px;
+}
+
+.cj4{
+    left: 230;
+    top: 180px;
+}
+
+.cercle_bleu{
+    background: #4F77FF;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.cb1{
+    left: 125px;
+    top: 75px
+}
+
+.cb2{
+    left: 245px;
+    top: 75px
+}
+
+.cb3{
+    left: 125px;
+    top: 195px
+}
+
+.cb4{
+    left: 245px;
+    top: 195px
+}
