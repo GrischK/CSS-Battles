@@ -1,0 +1,87 @@
+body{
+    width: 390px;
+    height: 300px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background: #191919;
+}
+
+.traith1 {
+    width: 110px;
+    height: 10px;
+    background: #5DBCF9;
+    position: absolute;
+    left: 145px; 
+    top: 224px;
+}
+  
+.traith2 {
+    width: 200px;
+    height: 10px;
+    background: #5DBCF9;
+    position: absolute;
+    left: 100px; 
+    top: 204px;
+}
+
+.triangle1 {
+    width: 73px;
+    height: 50px;
+    border: 10px solid;
+    border-color: #5DBCF9 #5DBCF9 transparent transparent;
+    transform: rotate(30deg);
+    position: absolute;
+    left: 175px;
+    top: 144px;
+    clip-path: inset(0 0 30% 0);
+}
+
+.triangle2 {
+    width: 73px;
+    height: 50px;
+    border: 10px solid;
+    border-color: #5DBCF9 #5DBCF9 transparent transparent;
+    transform: rotateY(180deg) rotate(30deg);
+    position: absolute;
+    left: 132px;
+    top: 144px;
+    clip-path: inset(0 0 30% 0);
+}
+
+.ligne_verticale{
+    height: 70px;
+    width: 10px;
+    background: #5DBCF9;
+    position: absolute;
+    left: 195px;
+    top: 130px;
+}
+
+.ligne_horizontale{
+    height: 10px;
+    width: 180px;
+    background: #191919;
+    position: absolute;
+    left: 120px;
+    top: 194px;
+}
+
+.grand_carre{
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 150px;
+    top: 96px;  
+    border: 10px solid #5DBCF9;
+    border-bottom: transparent;
+}
+
+.petit_carre{
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    left: 175px;
+    top: 66px;  
+    border: 10px solid #5DBCF9;
+    border-bottom: transparent;
+}
