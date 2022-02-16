@@ -1,0 +1,73 @@
+body {
+  width: 390px;
+  height: 300px;
+  margin-top: 0%;
+  margin-left: 0%;
+  background: #998235;
+}
+
+.container {
+  position :relative;
+  top: 140px;
+  left: 116px;
+  width: 151px;
+  height: 77px;
+  background: #EFF33C;
+  border-radius: 35%;
+  clip-path: ellipse(50% 60% at 50% 50%);
+}
+
+.rayure{
+  position: absolute;
+  height: 77px;
+  width: 25px;
+  background:#191919;
+}
+
+.rayure::after{
+  content:'';
+  position: absolute;
+  height: 77px;
+  width: 25px;
+  background:#191919;
+  left: 35px
+}
+
+.rayure::before{
+  content:'';
+  position: absolute;
+  height: 77px;
+  width: 25px;
+  background:#191919;
+  left: 70px
+}
+
+.oeil{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background:#191919;
+  left: 240px;
+  top: 170px;
+  border-radius: 50%;
+}
+
+.ailes{
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  background:#FFFFFF;
+  left: 190px;
+  top: 70px;
+  border-radius: 50% 50% 50% 0;
+}
+
+.ailes::before{
+  content:'';
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  background:#FFFFFF;
+  left: -75px;
+  border-radius: 50% 50% 0 50%;
+}
