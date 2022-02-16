@@ -1,0 +1,131 @@
+body {
+  width: 390px;
+  height: 300px;
+  margin-top: 0%;
+  margin-left: 0%;
+  background: #243d83;
+}
+
+.tete {
+  width: 60px;
+  height: 75px;
+  background: #243d83;
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  border-radius: 0 0 50% 50%;
+  border-bottom: 20px solid #6592cf;
+  border-left: 20px solid #6592cf;
+  border-right: 20px solid #6592cf;
+}
+
+.rond1 {
+  width: 60px;
+  height: 50px;
+  background: #6592cf;
+  position: absolute;
+  left: 170px;
+  top: 65px;
+  border-radius: 50%;
+}
+
+.rond1::after {
+  content: "";
+  width: 60px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: #6592cf;
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  border-radius: 50%;
+}
+
+.rond1::before {
+  content: "";
+  width: 60px;
+  height: 50px;
+  transform: rotate(90deg);
+  background: #6592cf;
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  border-radius: 50%;
+}
+
+.rond2 {
+  width: 60px;
+  height: 50px;
+  background: #6592cf;
+  position: absolute;
+  left: 170px;
+  top: 185px;
+  border-radius: 50%;
+}
+
+.rond2::after {
+  content: "";
+  width: 60px;
+  height: 50px;
+  transform: rotate(-45deg);
+  background: #6592cf;
+  position: absolute;
+  left: 40px;
+  top: -20px;
+  border-radius: 50%;
+}
+
+.rond2::before {
+  content: "";
+  width: 60px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: #6592cf;
+  position: absolute;
+  left: -40px;
+  top: -20px;
+  border-radius: 50%;
+}
+
+.rond3 {
+  width: 60px;
+  height: 50px;
+  background: #6592cf;
+  position: absolute;
+  left: 110px;
+  top: 125px;
+  transform: rotate(90deg);
+  border-radius: 50%;
+}
+
+.rond3::after {
+  content: "";
+  width: 60px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: #6592cf;
+  position: absolute;
+  left: -40px;
+  top: -20px;
+  border-radius: 50%;
+}
+
+.yeux {
+  background: #6592cf;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 185px;
+  top: 130px;
+}
+
+.yeux::after {
+  content: "";
+  background: #6592cf;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+}
