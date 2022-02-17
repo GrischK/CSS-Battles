@@ -1,0 +1,53 @@
+body{
+  background: #F3AC3C;
+}
+
+.carre {
+  width: 160px;
+  height: 160px;
+  background: #998235;
+  transform: rotate(45deg);
+  position:absolute;
+  left: 118px;
+  top: 70px;
+}
+
+.carre::before {
+  content:'';
+  width: 100px;
+  height: 100px;
+  background: #F3AC3C;
+  position:absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.carre::after {
+  content:'';
+  width: 30px;
+  height: 30px;
+  background: #1A4341;
+  position:absolute;
+  left: 65px;
+  top: 65px;
+}
+
+.ouverture {
+  width: 35px;
+  height: 30px;
+  background: #F3AC3C;
+  transform: rotate(45deg);
+  position:absolute;
+  left: 136px;
+  top: 90px;
+}
+
+.ouverture::after {
+  content:'';
+  width: 30px;
+  height: 40px;
+  background: #F3AC3C;
+  position:absolute;
+  left: 66px;
+  top: -70px;
+}
