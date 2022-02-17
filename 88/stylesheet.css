@@ -1,0 +1,46 @@
+body{
+  background: #F7F3DA;
+  margin: 0px;
+}
+
+.carres_roses {
+  width: 200px;
+  height: 200px;
+  background: #D25B70;
+  position: absolute;
+  top: 110px;
+  border-radius: 0 10px;
+}
+ 
+.carres_roses::after {
+  content:'';
+  width: 200px;
+  height: 200px;
+  background: #D25B70;
+  position: absolute;
+  top: 80px;
+  border-radius: 0 10px;
+  transform-origin: top right;
+  transform: rotate(180deg);
+}
+
+.carres_blancs {
+  width: 200px;
+  height: 200px;
+  background: #F7F3DA;
+  position: absolute;
+  top: 150px;
+  border-radius: 0 20px;
+}
+ 
+.carres_blancs::after {
+  content:'';
+  width: 200px;
+  height: 200px;
+  background: #F7F3DA;
+  position: absolute;
+  top: -0px;
+  border-radius: 0 20px;
+  transform-origin: top right;
+  transform: rotate(180deg);
+}
