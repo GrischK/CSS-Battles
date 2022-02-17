@@ -1,0 +1,36 @@
+body{
+  background:#D25B70;
+}
+
+.carre {
+  width: 100px;
+  height: 100px;
+  background: #F7F3DA;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+.carre::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #6CB3A9;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+transform-origin: top left;
+  transform: rotate(-143deg)
+}
+
+.carre::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background: #F6DF96;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+transform-origin: top right;
+  transform: rotate(127deg);
+}
