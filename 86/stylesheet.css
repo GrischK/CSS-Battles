@@ -1,0 +1,61 @@
+body{
+  background: #191919;
+}
+
+.fond {
+  width: 100px;
+  height: 100px;
+  background: #4F77FF;
+  position: absolute;
+  left: 150px;
+  top: 125px;
+}
+
+.fond::after {
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #4F77FF;
+  position: absolute;
+  left: 0px;
+  top: -50px;
+}
+
+.marches {
+  width: 50px;
+  height: 20px;
+  background: #191919;
+  position: absolute;
+  left: 230px;
+  top: 133px;
+}
+
+.marches::before {
+  content:"";
+  width: 50px;
+  height: 20px;
+  background: #191919;
+  position: absolute;
+  top: 24px;
+  left: -20px;
+}
+
+.marches::after {
+  content:"";
+  width: 60px;
+  height: 20px;
+  background: #191919;
+  position: absolute;
+  top: 48px;
+  left: -40px;
+}
+
+.marches2 {
+  width: 80px;
+  height: 20px;
+  background: #191919;
+  position: absolute;
+  top: 205px;
+  left: 170px;
+}
