@@ -1,0 +1,61 @@
+body{
+  background: #243D83;
+}
+
+.demi_cercle {
+  width: 100px;
+  height: 50px;
+  background: #6592CF;
+  border-radius: 60px 60px 0 0;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 210px;
+  top: 65px;
+}
+
+.demi_cercle::before {
+  content:'';
+  width: 100px;
+  height: 50px;
+  background: #6592CF;
+  border-radius: 60px 60px 0 0;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -85px;
+  top: 85px;
+}
+
+.demi_cercle::after {
+  content:'';
+  width: 100px;
+  height: 50px;
+  background: #6592CF;
+  border-radius: 60px 60px 0 0;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 85px;
+  top: 85px;
+}
+
+.demi_cercle2 {
+  width: 100px;
+  height: 50px;
+  background: #6592CF;
+  border-radius: 60px 60px 0 0;
+  transform: rotate(-135deg);
+  position: absolute;
+  left: 90px;
+  top: 185px;
+}
+
+.demi_cercle2::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #EEB850;
+  border-radius: 50%;
+  transform: rotate(-135deg);
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
