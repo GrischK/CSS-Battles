@@ -1,0 +1,37 @@
+body{
+  background: #F3AC3C;
+  margin: 0;
+}
+
+.ronds {
+  width: 400px;
+  height: 400px;
+  background: #998235;
+  border-radius: 100%;
+  position: absolute;
+  top: -250px; 
+  transform: translate(-50%,-50%);
+}
+
+.ronds::after {
+  content:"";
+  width: 200px;
+  height: 200px;
+  background: #1A4341;
+  border-radius: 100%;
+  position: absolute;
+  top: 275px;
+  left: 75px;
+  border: 25px solid #F3AC3C;
+}
+
+.ronds::before {
+  content:"";
+  width: 400px;
+  height: 400px;
+  background: #998235;
+  border-radius: 100%;
+  position: absolute;
+  top: 400px;
+  z-index: 1;
+}
