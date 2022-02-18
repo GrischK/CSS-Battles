@@ -1,0 +1,39 @@
+body{
+  background: #191919;
+  margin: 0px;
+}
+
+.formes {
+  position: absolute; 
+  width: 200px;
+  height: 200px;
+  background: #F9E492;
+  border-radius: 50%;
+  left: 100px;
+  top: 50px;
+}
+
+.formes::before {
+  content:'';
+  position: absolute; 
+  width: 200px;
+  height: 200px;
+  background: #4F77FF;
+  left: 0px;
+  top: 150px;
+  transform-origin: top-left;
+  transform: rotate(45deg);
+}
+
+.formes::after {
+  content:'';
+  position: absolute; 
+  width: 94px;
+  height: 93px;
+  background: #191919;
+  left: 53px;
+  top: 128px;
+  border-radius: 0 0 100% 0;
+  transform-origin: top-left;
+  transform: rotate(45deg);
+}
