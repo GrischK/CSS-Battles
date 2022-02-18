@@ -1,0 +1,46 @@
+body{
+  background: #6CB3A9;
+}
+
+.formes {
+  width: 180px;
+  height: 80px;
+  background: #781728;
+  position: absolute;
+  left: 110px;
+  top: 120px;
+  border-radius: 10px;
+}
+
+.formes::before {
+  content:"";
+  width: 200px;
+  height: 90px;
+  background: #D25B70;
+  position: absolute;
+  left: -10px;
+  top: -70px;
+  clip-path: circle(65% at 50% 112%)
+}
+
+.formes::after {
+  content:"";
+  width: 200px;
+  height: 90px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -10px;
+  top: 40px;
+  clip-path: circle(65% at 50% -12%)
+}
+
+.rond {
+  width: 50px;
+  height: 50px;
+  background: #F6DF96;
+  position: absolute;
+  left: 165px;
+  top: 115px;
+  border-radius: 100%;
+  border: 10px #781728 solid;
+}
