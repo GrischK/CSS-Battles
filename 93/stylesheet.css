@@ -1,0 +1,66 @@
+body{
+  background: #4F77FF;
+}
+
+.ronds {
+  width: 200px;
+  height: 200px;
+  background: #191919;
+  border-radius: 100%;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  overflow: hidden;
+}
+
+.ronds::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #F9E492;
+  border-radius: 100%;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.traits {
+  width: 100px;
+  height: 16px;
+  background: #F9E492;
+  position: absolute;
+  left: 0px;
+  top: 122px;
+  box-shadow: 120px -13px #F9E492, 120px 13px #F9E492, 120px 39px #F9E492;
+}
+
+.traits::before {
+  content:"";
+  width: 100px;
+  height: 16px;
+  background: #F9E492;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+}
+
+.traits::after {
+  content:"";
+  width: 100px;
+  height: 16px;
+  background: #F9E492;
+  position: absolute;
+  left: 0px;
+  top: 52px;
+}
+
+.traits2 {
+  width: 20px;
+  height: 16px;
+  background: #D6B73F;
+  position: absolute;
+  left: 200px;
+  top: 165.5px;
+  transform: skew(0, -35deg);
+  box-shadow: 0 26px #D6B73F, 0 52px #D6B73F; 
+} 
