@@ -1,0 +1,38 @@
+body{
+  background: #AC474B;
+}
+
+.paquet {
+  width: 60px;
+  height:60px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 130px;
+  top: 110px;
+  box-shadow: 80px 0 #FFFFFF, 80px 80px #FFFFFF, 0 80px #FFFFFF;
+}
+
+.paquet::after{
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: #0000;
+  border-radius: 50% 50% 0 50%;
+  border: 10px solid #FFFFFF;
+  position: absolute;
+  top: -60px;
+  left: 35px;
+}
+
+.paquet::before{
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: #0000;
+  border-radius: 50% 50% 0 50%;
+  border: 10px solid #FFFFFF;
+  position: absolute;
+  top: -60px;
+  left: 65px;
+  transform: rotateY(180deg);
+}
