@@ -1,0 +1,87 @@
+body{
+  background: #AC474B;  
+}
+
+.corps {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  left: 150px;
+  top: 145px;
+}
+
+.corps::before {
+  content:'';
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: -50px;
+}
+
+.corps::after {
+  content:'';
+  width: 10px;
+  height: 10px;
+  background: #0E1F2B;
+  border-radius: 50%;
+  position: absolute;
+  left: 35px;
+  top: -32px;
+  box-shadow: 20px 0px #0E1F2B;
+}
+
+.echarpe{
+  width: 100px;
+  height: 18px;
+  background: #AC474B;
+  position: absolute;
+  left: 150px;
+  top: 139px;    
+}
+
+.echarpe::before{
+  content: "";
+  width: 60px;
+  height: 10px;
+  border-radius: 20px;
+  background: #FFA63F;
+  position: absolute;
+  left: 20px;
+  top: 4px;    
+}
+
+.chapeau{
+  width: 60px;
+  height: 5px;
+  background: #0E1F2B;
+  position: absolute;
+  left: 170px;
+  top: 95px;    
+}
+
+.chapeau::before{
+  content: "";
+  width: 40px;
+  height: 45px;
+  border-radius: 0px;
+  background: #0E1F2B;
+  position: absolute;
+  left: 10px;
+  top: -40px;    
+}
+
+.chapeau::after{
+  content: "";
+  width: 40px;
+  height: 10px;
+  border-radius: 0px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 10px;
+  top: -25px;    
+}
